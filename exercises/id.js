@@ -7,6 +7,11 @@
  */
 
 // Your code :
+function id(arg) { // Declare a function
+    return arg;
+  }
+  
+  
 
 //* Begin of tests
 const assert = require('assert')

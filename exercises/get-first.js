@@ -9,6 +9,13 @@
 
 // Your code :
 
+function getFirst(param1){
+    return param1[0];
+    
+
+}
+
+
 //* Begin of tests
 const assert = require('assert')
 

@@ -5,7 +5,11 @@
  * and return its length.
  *
  * @notions Data-Structures, Get
- */
+ */function getLength(param1){
+     return param1.length
+     
+
+ }
 
 // Your code :
 
