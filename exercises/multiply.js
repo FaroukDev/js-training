@@ -9,6 +9,28 @@
  */
 
 // Your code :
+// function multiply(a,b){
+//     let resultat = 0;
+//     for (let i = 0; i < a; i++) {
+//         resultat += b;
+//     }
+
+//     for (let i = 0; i < b; i++) {
+//         resultat += a;
+    
+//     }
+    
+
+//     return resultat;
+// }
+function multiply(x,y) {
+    if (x == 0 || y == 0) {
+        return 0;
+    } else if (y > 0) {
+        return x + multiply(x, y - 1);
+    }
+    return -multiply(x, -y);
+}
 
 //* Begin of tests
 const assert = require('assert')

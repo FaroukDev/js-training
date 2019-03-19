@@ -5,6 +5,14 @@
  * and return the total
  *
  */
+function total(myArray){
+    let total = 0;
+    let i; 
+    for (i = 0; i < myArray.length; ++i) {
+        total += myArray[i]; // add each element in an array to total
+   }
+   return total;// return sum of elements in array
+}
 
 
 //* Begin of tests
